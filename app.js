@@ -14,6 +14,7 @@ const express = require('express');
  app.use(morgan('dev'))
  app.use(express.json());
  
+ console
  
  mongoose.connect('mongodb+srv://sahanapatil137:NuoCrfmBy7tKMAXB@cluster0.3hsrhjw.mongodb.net/?retryWrites=true&w=majority')
  .then(()=>{
